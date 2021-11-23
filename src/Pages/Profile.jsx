@@ -27,6 +27,13 @@ function Profile(){
             address: address.current.value
         })
     })
+    
+    name.current.value = null
+    surname.current.value = null
+    email.current.value = null
+    address.current.value = null
+    
+    
 }
 
 
